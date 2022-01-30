@@ -142,8 +142,9 @@ gladiator = {
 		is_being_assimilated = no
 	}
 
+	possible_precalc = can_fill_worker_job
+
 	possible = {
-		worker_job_check_trigger = yes
 		owner = { is_gestalt = no }
 	}
 
@@ -604,9 +605,10 @@ mercenary = {
 		is_being_assimilated = no
 	}
 
+	possible_precalc = can_fill_specialist_job
+
 	possible = {
-		specialist_job_check_trigger = yes
-	}
+		}
 
 	country_modifier = {
 		country_naval_cap_add = 4
@@ -1132,9 +1134,10 @@ commandante = {
 		is_being_assimilated = no
 	}
 
+	possible_precalc = can_fill_ruler_job
+
 	possible = {
-		ruler_job_check_trigger = yes
-	}
+		}
 
 	country_modifier = {
 		country_naval_cap_add = 3
@@ -1221,9 +1224,10 @@ supervisor = {
 		is_being_assimilated = no
 	}
 
+	possible_precalc = can_fill_ruler_job
+
 	possible = {
-		ruler_job_check_trigger = yes
-	}
+		}
 
 	resources = {
 		category = planet_administrators
@@ -1297,9 +1301,10 @@ mogul = {
 		is_being_assimilated = no
 	}
 
+	possible_precalc = can_fill_ruler_job
+
 	possible = {
-		ruler_job_check_trigger = yes
-		owner = { NOT = { has_valid_civic = civic_distributism } }
+			owner = { NOT = { has_valid_civic = civic_distributism } }
 	}
 
 	planet_modifier = {

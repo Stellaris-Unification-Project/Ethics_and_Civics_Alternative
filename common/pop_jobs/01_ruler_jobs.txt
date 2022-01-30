@@ -15,9 +15,10 @@ head_researcher = {
 		is_being_assimilated = no
 	}
 
+	possible_precalc = can_fill_ruler_job
+
 	possible = {
-		ruler_job_check_trigger = yes
-	}
+		}
 
 	resources = {
 		category = planet_researchers
@@ -168,9 +169,10 @@ high_priest = {
 		is_being_assimilated = no
 	}
 
+	possible_precalc = can_fill_ruler_job
+
 	possible = {
-		ruler_job_check_trigger = yes
-		NOT = { has_ethic = ethic_materialist }
+			NOT = { has_ethic = ethic_materialist }
 	}
 
 	resources = {
@@ -315,9 +317,10 @@ administrator = {
 		is_being_assimilated = no
 	}
 
+	possible_precalc = can_fill_ruler_job
+
 	possible = {
-		ruler_job_check_trigger = yes
-	}
+		}
 
 	resources = {
 		category = planet_administrators
@@ -435,9 +438,10 @@ noble = {
 		is_being_assimilated = no
 	}
 
+	possible_precalc = can_fill_ruler_job
+
 	possible = {
-		ruler_job_check_trigger = yes
-	}
+		}
 
 	resources = {
 		category = planet_nobles
@@ -653,9 +657,10 @@ executive = {
 		is_being_assimilated = no
 	}
 
+	possible_precalc = can_fill_ruler_job
+
 	possible = {
-		ruler_job_check_trigger = yes
-	}
+		}
 
 	resources = {
 		category = planet_executives

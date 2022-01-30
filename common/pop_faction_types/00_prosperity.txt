@@ -13,7 +13,7 @@ prosperity = {
 		years_passed > 10
 		has_encountered_other_species = yes
 		NOT = { has_ethic = ethic_gestalt_consciousness }
-		count_owned_pops = {
+		count_owned_pop = {
 			count >= 5
 			limit = {
 				has_ethic = ethic_pacifist
@@ -71,11 +71,7 @@ prosperity = {
 
 		modifier = {
 			factor = 1.5
-
-			OR = {
-				has_ethic = ethic_pacifist
-				has_ethic = ethic_fanatic_pacifist
-			}
+			is_pacifist = yes
 		}
 
 		# Should really check for citizenship instead
@@ -162,7 +158,7 @@ prosperity = {
 							any_owned_planet = {
 								NOR = {
 									is_same_value = prevprevprev
-									is_same_value = root.owner.capital_scope
+									is_same_empire = root.owner.capital_scope
 								}
 							}
 						}

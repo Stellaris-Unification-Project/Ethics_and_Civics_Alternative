@@ -20,7 +20,7 @@ traditionalist = {
 		years_passed > 10
 		has_encountered_other_species = yes
 		NOT = { has_ethic = ethic_gestalt_consciousness }
-		count_owned_pops = {
+		count_owned_pop = {
 			count >= 5
 			limit = {
 				has_ethic = ethic_spiritualist
@@ -46,10 +46,7 @@ traditionalist = {
 	can_join_faction = {
 		has_culture_shock = no
 		NOT = { has_trait = trait_nerve_stapled }
-		OR = {
-			has_ethic = ethic_spiritualist
-			has_ethic = ethic_fanatic_spiritualist
-		}
+		is_spiritualist = yes
 	}
 
 	attraction = {
@@ -142,8 +139,10 @@ traditionalist = {
 			exists = owner
 			owner = {
 				can_set_ai_policy = yes
-				NOT = { has_policy_flag = ai_full_rights }
-				NOT = { has_valid_civic = civic_machine_cult }
+				NOR = {
+					has_policy_flag = ai_full_rights
+					has_valid_civic = civic_machine_cult
+				}
 			}
 		}
 

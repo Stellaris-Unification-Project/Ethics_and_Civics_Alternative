@@ -32,10 +32,8 @@ country_event = {
 				is_country_type = default
 				NOR = {
 					has_country_flag = special_intro_for@root
-					has_ethic = ethic_xenophobe
-					has_ethic = ethic_fanatic_xenophobe
-					has_ethic = ethic_xenophile
-					has_ethic = ethic_fanatic_xenophile
+					is_xenophobe = yes
+					is_xenophile = yes
 				}
 				OR = {
 					has_government = gov_star_empire
@@ -55,10 +53,8 @@ country_event = {
 				is_country_type = default
 				NOR = {
 					has_country_flag = special_intro_for@root
-					has_ethic = ethic_xenophobe
-					has_ethic = ethic_fanatic_xenophobe
-					has_ethic = ethic_xenophile
-					has_ethic = ethic_fanatic_xenophile
+					is_xenophobe = yes
+					is_xenophile = yes
 				}
 				OR = {
 					has_government = gov_theocratic_monarchy
@@ -77,10 +73,8 @@ country_event = {
 				is_country_type = default
 				NOR = {
 					has_country_flag = special_intro_for@root
-					has_ethic = ethic_xenophobe
-					has_ethic = ethic_fanatic_xenophobe
-					has_ethic = ethic_xenophile
-					has_ethic = ethic_fanatic_xenophile
+					is_xenophobe = yes
+					is_xenophile = yes
 				}
 				OR = {
 					has_government = gov_despotic_hegemony
@@ -100,10 +94,8 @@ country_event = {
 				is_country_type = default
 				NOR = {
 					has_country_flag = special_intro_for@root
-					has_ethic = ethic_xenophobe
-					has_ethic = ethic_fanatic_xenophobe
-					has_ethic = ethic_xenophile
-					has_ethic = ethic_fanatic_xenophile
+					is_xenophobe = yes
+					is_xenophile = yes
 				}
 				OR = {
 					has_government = gov_irenic_monarchy
@@ -122,10 +114,8 @@ country_event = {
 				is_country_type = default
 				NOR = {
 					has_country_flag = special_intro_for@root
-					has_ethic = ethic_xenophobe
-					has_ethic = ethic_fanatic_xenophobe
-					has_ethic = ethic_xenophile
-					has_ethic = ethic_fanatic_xenophile
+					is_xenophobe = yes
+					is_xenophile = yes
 				}
 				OR = {
 					has_government = gov_despotic_empire
@@ -146,10 +136,8 @@ country_event = {
 				is_country_type = default
 				NOR = {
 					has_country_flag = special_intro_for@root
-					has_ethic = ethic_xenophobe
-					has_ethic = ethic_fanatic_xenophobe
-					has_ethic = ethic_xenophile
-					has_ethic = ethic_fanatic_xenophile
+					is_xenophobe = yes
+					is_xenophile = yes
 				}
 				OR = {
 					has_government = gov_military_junta
@@ -168,10 +156,8 @@ country_event = {
 				is_country_type = default
 				NOR = {
 					has_country_flag = special_intro_for@root
-					has_ethic = ethic_xenophobe
-					has_ethic = ethic_fanatic_xenophobe
-					has_ethic = ethic_xenophile
-					has_ethic = ethic_fanatic_xenophile
+					is_xenophobe = yes
+					is_xenophile = yes
 				}
 				OR = {
 					has_government = gov_theocratic_oligarchy
@@ -189,10 +175,8 @@ country_event = {
 				is_country_type = default
 				NOR = {
 					has_country_flag = special_intro_for@root
-					has_ethic = ethic_xenophobe
-					has_ethic = ethic_fanatic_xenophobe
-					has_ethic = ethic_xenophile
-					has_ethic = ethic_fanatic_xenophile
+					is_xenophobe = yes
+					is_xenophile = yes
 				}
 				OR = {
 					has_government = gov_executive_committee
@@ -210,10 +194,8 @@ country_event = {
 				is_country_type = default
 				NOR = {
 					has_country_flag = special_intro_for@root
-					has_ethic = ethic_xenophobe
-					has_ethic = ethic_fanatic_xenophobe
-					has_ethic = ethic_xenophile
-					has_ethic = ethic_fanatic_xenophile
+					is_xenophobe = yes
+					is_xenophile = yes
 					AND = {
 						exists = event_target:ratling_country
 						is_same_value = event_target:ratling_country
@@ -232,10 +214,8 @@ country_event = {
 				is_country_type = default
 				NOR = {
 					has_country_flag = special_intro_for@root
-					has_ethic = ethic_xenophobe
-					has_ethic = ethic_fanatic_xenophobe
-					has_ethic = ethic_xenophile
-					has_ethic = ethic_fanatic_xenophile
+					is_xenophobe = yes
+					is_xenophile = yes
 				}
 				OR = {
 					has_government = gov_megacorporation
@@ -253,10 +233,8 @@ country_event = {
 				is_country_type = default
 				NOR = {
 					has_country_flag = special_intro_for@root
-					has_ethic = ethic_xenophobe
-					has_ethic = ethic_fanatic_xenophobe
-					has_ethic = ethic_xenophile
-					has_ethic = ethic_fanatic_xenophile
+					is_xenophobe = yes
+					is_xenophile = yes
 				}
 				OR = {
 					has_government = gov_military_commissariat
@@ -275,10 +253,8 @@ country_event = {
 				is_country_type = default
 				NOR = {
 					has_country_flag = special_intro_for@root
-					has_ethic = ethic_xenophobe
-					has_ethic = ethic_fanatic_xenophobe
-					has_ethic = ethic_xenophile
-					has_ethic = ethic_fanatic_xenophile
+					is_xenophobe = yes
+					is_xenophile = yes
 				}
 				has_government = gov_theocratic_republic
 			}
@@ -293,10 +269,8 @@ country_event = {
 				is_country_type = default
 				NOR = {
 					has_country_flag = special_intro_for@root
-					has_ethic = ethic_xenophobe
-					has_ethic = ethic_fanatic_xenophobe
-					has_ethic = ethic_xenophile
-					has_ethic = ethic_fanatic_xenophile
+					is_xenophobe = yes
+					is_xenophile = yes
 				}
 				OR = {
 					has_government = gov_direct_democracy
@@ -314,10 +288,8 @@ country_event = {
 				is_country_type = default
 				NOR = {
 					has_country_flag = special_intro_for@root
-					has_ethic = ethic_xenophobe
-					has_ethic = ethic_fanatic_xenophobe
-					has_ethic = ethic_xenophile
-					has_ethic = ethic_fanatic_xenophile
+					is_xenophobe = yes
+					is_xenophile = yes
 				}
 				has_government = gov_moral_democracy
 			}
@@ -332,10 +304,8 @@ country_event = {
 				is_country_type = default
 				NOR = {
 					has_country_flag = special_intro_for@root
-					has_ethic = ethic_xenophobe
-					has_ethic = ethic_fanatic_xenophobe
-					has_ethic = ethic_xenophile
-					has_ethic = ethic_fanatic_xenophile
+					is_xenophobe = yes
+					is_xenophile = yes
 				}
 				has_government = gov_representative_democracy
 			}
@@ -350,10 +320,7 @@ country_event = {
 			NOT = { is_same_species = event_target:contact_empire }
 			event_target:contact_empire = {
 				is_country_type = default
-				OR = {
-					has_ethic = ethic_xenophobe
-					has_ethic = ethic_fanatic_xenophobe
-				}
+				is_xenophobe = yes
 				OR = {
 					has_government = gov_star_empire
 					has_government = gov_military_dictatorship
@@ -375,10 +342,7 @@ country_event = {
 			NOT = { is_same_species = event_target:contact_empire }
 			event_target:contact_empire = {
 				is_country_type = default
-				OR = {
-					has_ethic = ethic_xenophobe
-					has_ethic = ethic_fanatic_xenophobe
-				}
+				is_xenophobe = yes
 				OR = {
 					has_government = gov_theocratic_monarchy
 					has_government = gov_theocratic_dictatorship
@@ -397,10 +361,7 @@ country_event = {
 			NOT = { is_same_species = event_target:contact_empire }
 			event_target:contact_empire = {
 				is_country_type = default
-				OR = {
-					has_ethic = ethic_xenophobe
-					has_ethic = ethic_fanatic_xenophobe
-				}
+				is_xenophobe = yes
 				OR = {
 					has_government = gov_despotic_hegemony
 					has_government = gov_totalitarian_regime
@@ -420,10 +381,7 @@ country_event = {
 			NOT = { is_same_species = event_target:contact_empire }
 			event_target:contact_empire = {
 				is_country_type = default
-				OR = {
-					has_ethic = ethic_xenophobe
-					has_ethic = ethic_fanatic_xenophobe
-				}
+				is_xenophobe = yes
 				OR = {
 					has_government = gov_irenic_monarchy
 					has_government = gov_irenic_dictatorship
@@ -442,10 +400,7 @@ country_event = {
 			NOT = { is_same_species = event_target:contact_empire }
 			event_target:contact_empire = {
 				is_country_type = default
-				OR = {
-					has_ethic = ethic_xenophobe
-					has_ethic = ethic_fanatic_xenophobe
-				}
+				is_xenophobe = yes
 				OR = {
 					has_government = gov_despotic_empire
 					has_government = gov_feudal_empire
@@ -466,10 +421,7 @@ country_event = {
 			NOT = { is_same_species = event_target:contact_empire }
 			event_target:contact_empire = {
 				is_country_type = default
-				OR = {
-					has_ethic = ethic_xenophobe
-					has_ethic = ethic_fanatic_xenophobe
-				}
+				is_xenophobe = yes
 				OR = {
 					has_government = gov_military_junta
 					has_government = gov_war_council
@@ -488,10 +440,7 @@ country_event = {
 			NOT = { is_same_species = event_target:contact_empire }
 			event_target:contact_empire = {
 				is_country_type = default
-				OR = {
-					has_ethic = ethic_xenophobe
-					has_ethic = ethic_fanatic_xenophobe
-				}
+				is_xenophobe = yes
 				OR = {
 					has_government = gov_theocratic_oligarchy
 					has_government = gov_holy_tribunal
@@ -509,10 +458,7 @@ country_event = {
 			NOT = { is_same_species = event_target:contact_empire }
 			event_target:contact_empire = {
 				is_country_type = default
-				OR = {
-					has_ethic = ethic_xenophobe
-					has_ethic = ethic_fanatic_xenophobe
-				}
+				is_xenophobe = yes
 				OR = {
 					has_government = gov_executive_committee
 					has_government = gov_science_directorate
@@ -530,13 +476,12 @@ country_event = {
 			NOT = { is_same_species = event_target:contact_empire }
 			event_target:contact_empire = {
 				is_country_type = default
-				OR = {
-					has_ethic = ethic_xenophobe
-					has_ethic = ethic_fanatic_xenophobe
-				}
+				is_xenophobe = yes
 				has_government = gov_irenic_bureaucracy
-				NOT = { has_valid_civic = civic_fanatic_purifiers }
-				NOT = { has_valid_civic = civic_hive_devouring_swarm }
+				NOR = {
+					has_valid_civic = civic_fanatic_purifiers
+					has_valid_civic = civic_hive_devouring_swarm
+				}
 				NOT = { has_country_flag = special_intro_for@root }
 			}
 		}
@@ -548,10 +493,7 @@ country_event = {
 			NOT = { is_same_species = event_target:contact_empire }
 			event_target:contact_empire = {
 				is_country_type = default
-				OR = {
-					has_ethic = ethic_xenophobe
-					has_ethic = ethic_fanatic_xenophobe
-				}
+				is_xenophobe = yes
 				OR = {
 					has_government = gov_megacorporation
 					has_government = gov_plutocratic_oligarchy
@@ -569,10 +511,7 @@ country_event = {
 			NOT = { is_same_species = event_target:contact_empire }
 			event_target:contact_empire = {
 				is_country_type = default
-				OR = {
-					has_ethic = ethic_xenophobe
-					has_ethic = ethic_fanatic_xenophobe
-				}
+				is_xenophobe = yes
 				OR = {
 					has_government = gov_military_commissariat
 					has_government = gov_assembly_of_clans
@@ -591,13 +530,12 @@ country_event = {
 			NOT = { is_same_species = event_target:contact_empire }
 			event_target:contact_empire = {
 				is_country_type = default
-				OR = {
-					has_ethic = ethic_xenophobe
-					has_ethic = ethic_fanatic_xenophobe
-				}
+				is_xenophobe = yes
 				has_government = gov_theocratic_republic
-				NOT = { has_valid_civic = civic_fanatic_purifiers }
-				NOT = { has_valid_civic = civic_hive_devouring_swarm }
+				NOR = {
+					has_valid_civic = civic_fanatic_purifiers
+					has_valid_civic = civic_hive_devouring_swarm
+				}
 				NOT = { has_country_flag = special_intro_for@root }
 			}
 		}
@@ -609,10 +547,7 @@ country_event = {
 			NOT = { is_same_species = event_target:contact_empire }
 			event_target:contact_empire = {
 				is_country_type = default
-				OR = {
-					has_ethic = ethic_xenophobe
-					has_ethic = ethic_fanatic_xenophobe
-				}
+				is_xenophobe = yes
 				OR = {
 					has_government = gov_direct_democracy
 					has_government = gov_rational_consensus
@@ -630,13 +565,12 @@ country_event = {
 			NOT = { is_same_species = event_target:contact_empire }
 			event_target:contact_empire = {
 				is_country_type = default
-				OR = {
-					has_ethic = ethic_xenophobe
-					has_ethic = ethic_fanatic_xenophobe
-				}
+				is_xenophobe = yes
 				has_government = gov_moral_democracy
-				NOT = { has_valid_civic = civic_fanatic_purifiers }
-				NOT = { has_valid_civic = civic_hive_devouring_swarm }
+				NOR = {
+					has_valid_civic = civic_fanatic_purifiers
+					has_valid_civic = civic_hive_devouring_swarm
+				}
 				NOT = { has_country_flag = special_intro_for@root }
 			}
 		}
@@ -648,13 +582,12 @@ country_event = {
 			NOT = { is_same_species = event_target:contact_empire }
 			event_target:contact_empire = {
 				is_country_type = default
-				OR = {
-					has_ethic = ethic_xenophobe
-					has_ethic = ethic_fanatic_xenophobe
-				}
+				is_xenophobe = yes
 				has_government = gov_representative_democracy
-				NOT = { has_valid_civic = civic_fanatic_purifiers }
-				NOT = { has_valid_civic = civic_hive_devouring_swarm }
+				NOR = {
+					has_valid_civic = civic_fanatic_purifiers
+					has_valid_civic = civic_hive_devouring_swarm
+				}
 				NOT = { has_country_flag = special_intro_for@root }
 			}
 		}
@@ -669,8 +602,7 @@ country_event = {
 			event_target:contact_empire = {
 				is_country_type = default
 				OR = {
-					has_ethic = ethic_xenophile
-					has_ethic = ethic_fanatic_xenophile
+					is_xenophile = yes
 				}
 				OR = {
 					has_government = gov_star_empire
@@ -690,8 +622,7 @@ country_event = {
 			event_target:contact_empire = {
 				is_country_type = default
 				OR = {
-					has_ethic = ethic_xenophile
-					has_ethic = ethic_fanatic_xenophile
+					is_xenophile = yes
 				}
 				OR = {
 					has_government = gov_theocratic_monarchy
@@ -710,8 +641,7 @@ country_event = {
 			event_target:contact_empire = {
 				is_country_type = default
 				OR = {
-					has_ethic = ethic_xenophile
-					has_ethic = ethic_fanatic_xenophile
+					is_xenophile = yes
 				}
 				OR = {
 					has_government = gov_despotic_hegemony
@@ -731,8 +661,7 @@ country_event = {
 			event_target:contact_empire = {
 				is_country_type = default
 				OR = {
-					has_ethic = ethic_xenophile
-					has_ethic = ethic_fanatic_xenophile
+					is_xenophile = yes
 				}
 				OR = {
 					has_government = gov_irenic_monarchy
@@ -751,8 +680,7 @@ country_event = {
 			event_target:contact_empire = {
 				is_country_type = default
 				OR = {
-					has_ethic = ethic_xenophile
-					has_ethic = ethic_fanatic_xenophile
+					is_xenophile = yes
 				}
 				OR = {
 					has_government = gov_despotic_empire
@@ -773,8 +701,7 @@ country_event = {
 			event_target:contact_empire = {
 				is_country_type = default
 				OR = {
-					has_ethic = ethic_xenophile
-					has_ethic = ethic_fanatic_xenophile
+					is_xenophile = yes
 				}
 				OR = {
 					has_government = gov_military_junta
@@ -793,8 +720,7 @@ country_event = {
 			event_target:contact_empire = {
 				is_country_type = default
 				OR = {
-					has_ethic = ethic_xenophile
-					has_ethic = ethic_fanatic_xenophile
+					is_xenophile = yes
 				}
 				OR = {
 					has_government = gov_theocratic_oligarchy
@@ -812,8 +738,7 @@ country_event = {
 			event_target:contact_empire = {
 				is_country_type = default
 				OR = {
-					has_ethic = ethic_xenophile
-					has_ethic = ethic_fanatic_xenophile
+					is_xenophile = yes
 				}
 				OR = {
 					has_government = gov_executive_committee
@@ -831,8 +756,7 @@ country_event = {
 			event_target:contact_empire = {
 				is_country_type = default
 				OR = {
-					has_ethic = ethic_xenophile
-					has_ethic = ethic_fanatic_xenophile
+					is_xenophile = yes
 				}
 				has_government = gov_irenic_bureaucracy
 				NOT = { has_country_flag = special_intro_for@root }
@@ -847,8 +771,7 @@ country_event = {
 			event_target:contact_empire = {
 				is_country_type = default
 				OR = {
-					has_ethic = ethic_xenophile
-					has_ethic = ethic_fanatic_xenophile
+					is_xenophile = yes
 				}
 				OR = {
 					has_government = gov_megacorporation
@@ -866,8 +789,7 @@ country_event = {
 			event_target:contact_empire = {
 				is_country_type = default
 				OR = {
-					has_ethic = ethic_xenophile
-					has_ethic = ethic_fanatic_xenophile
+					is_xenophile = yes
 				}
 				OR = {
 					has_government = gov_military_commissariat
@@ -886,8 +808,7 @@ country_event = {
 			event_target:contact_empire = {
 				is_country_type = default
 				OR = {
-					has_ethic = ethic_xenophile
-					has_ethic = ethic_fanatic_xenophile
+					is_xenophile = yes
 				}
 				has_government = gov_theocratic_republic
 				NOT = { has_country_flag = special_intro_for@root }
@@ -902,8 +823,7 @@ country_event = {
 			event_target:contact_empire = {
 				is_country_type = default
 				OR = {
-					has_ethic = ethic_xenophile
-					has_ethic = ethic_fanatic_xenophile
+					is_xenophile = yes
 				}
 				OR = {
 					has_government = gov_direct_democracy
@@ -921,8 +841,7 @@ country_event = {
 			event_target:contact_empire = {
 				is_country_type = default
 				OR = {
-					has_ethic = ethic_xenophile
-					has_ethic = ethic_fanatic_xenophile
+					is_xenophile = yes
 				}
 				has_government = gov_moral_democracy
 				NOT = { has_country_flag = special_intro_for@root }
@@ -937,8 +856,7 @@ country_event = {
 			event_target:contact_empire = {
 				is_country_type = default
 				OR = {
-					has_ethic = ethic_xenophile
-					has_ethic = ethic_fanatic_xenophile
+					is_xenophile = yes
 				}
 				has_government = gov_representative_democracy
 				NOT = { has_country_flag = special_intro_for@root }
@@ -968,8 +886,10 @@ country_event = {
 			event_target:contact_empire = {
 				is_country_type = default
 				has_authority = auth_hive_mind
-				NOT = { has_valid_civic = civic_hive_devouring_swarm }
-				NOT = { has_country_flag = special_intro_for@root }
+				NOR = {
+					has_valid_civic = civic_hive_devouring_swarm
+					has_country_flag = special_intro_for@root
+				}
 			}
 		}
 	}
@@ -1032,10 +952,7 @@ country_event = {
 		text = action.1.desc_71
 		trigger = {
 			NOT = { is_same_species = event_target:contact_empire }
-			OR = {
-				has_authority = auth_machine_intelligence
-				has_country_flag = synthetic_empire
-			}
+			is_synthetic_empire = yes
 			event_target:contact_empire = {
 				is_country_type = default
 				OR = {
@@ -1070,10 +987,7 @@ country_event = {
 		text = action.1.desc_73
 		trigger = {
 			NOT = { is_same_species = event_target:contact_empire }
-			OR = {
-				has_authority = auth_machine_intelligence
-				has_country_flag = synthetic_empire
-			}
+			is_synthetic_empire = yes
 			event_target:contact_empire = {
 				is_country_type = default
 				has_government = gov_machine_terminator
@@ -1104,10 +1018,7 @@ country_event = {
 		text = action.1.desc_75
 		trigger = {
 			NOT = { is_same_species = event_target:contact_empire }
-			OR = {
-				has_authority = auth_machine_intelligence
-				has_country_flag = synthetic_empire
-			}
+			is_synthetic_empire = yes
 			event_target:contact_empire = {
 				is_country_type = default
 				has_government = gov_machine_assimilator
@@ -1138,10 +1049,7 @@ country_event = {
 		text = action.1.desc_77
 		trigger = {
 			NOT = { is_same_species = event_target:contact_empire }
-			OR = {
-				has_authority = auth_machine_intelligence
-				has_country_flag = synthetic_empire
-			}
+			is_synthetic_empire = yes
 			event_target:contact_empire = {
 				is_country_type = default
 				has_government = gov_machine_servitor
@@ -1172,10 +1080,7 @@ country_event = {
 		text = action.1.desc_79
 		trigger = {
 			NOT = { is_same_species = event_target:contact_empire }
-			OR = {
-				has_authority = auth_machine_intelligence
-				has_country_flag = synthetic_empire
-			}
+			is_synthetic_empire = yes
 			event_target:contact_empire = {
 				is_country_type = fallen_empire
 				has_authority = auth_machine_intelligence
@@ -1222,10 +1127,14 @@ country_event = {
 		trigger = {
 			event_target:contact_empire = {
 				is_country_type = fallen_empire
-				NOT = { has_ethic = ethic_gestalt_consciousness }
-				NOT = { has_ethic = ethic_fanatic_xenophobe }
-				NOT = { has_ethic = ethic_fanatic_xenophile }
-				NOT = { has_ethic = ethic_fanatic_materialist }
+				NOR = {
+					has_ethic = ethic_gestalt_consciousness
+					has_ethic = ethic_fanatic_xenophobe
+				}
+				NOR = {
+					has_ethic = ethic_fanatic_xenophile
+					has_ethic = ethic_fanatic_materialist
+				}
 				NOT = { has_ethic = ethic_fanatic_spiritualist }
 			}
 		}
@@ -1497,22 +1406,14 @@ country_event = {
 		name = action.1.a
 		trigger = {
 			NOR = {
-				has_ethic = ethic_xenophobe
-				has_ethic = ethic_fanatic_xenophobe
-				has_ethic = ethic_xenophile
-				has_ethic = ethic_fanatic_xenophile
-				has_ethic = ethic_egalitarian
-				has_ethic = ethic_fanatic_egalitarian
-				has_ethic = ethic_authoritarian
-				has_ethic = ethic_fanatic_authoritarian
-				has_ethic = ethic_militarist
-				has_ethic = ethic_fanatic_militarist
-				has_ethic = ethic_pacifist
-				has_ethic = ethic_fanatic_pacifist
-				has_ethic = ethic_materialist
-				has_ethic = ethic_fanatic_materialist
-				has_ethic = ethic_spiritualist
-				has_ethic = ethic_fanatic_spiritualist
+				is_xenophobe = yes
+				is_xenophile = yes
+				is_egalitarian = yes
+				is_authoritarian = yes
+				is_militarist = yes
+				is_pacifist = yes
+				is_materialist = yes
+				is_spiritualist = yes
 				has_ethic = ethic_gestalt_consciousness
 			}
 		}
@@ -1704,313 +1605,169 @@ country_event = {
 	option = {
 		name = action.1.aa
 		trigger = {
-			OR = {
-				has_ethic = ethic_xenophobe
-				has_ethic = ethic_fanatic_xenophobe
-			}
-			OR = {
-				has_ethic = ethic_materialist
-				has_ethic = ethic_fanatic_materialist
-			}
+			is_xenophobe = yes
+			is_materialist = yes
 		}
 	}
 	option = {
 		name = action.1.ab
 		trigger = {
-			OR = {
-				has_ethic = ethic_xenophobe
-				has_ethic = ethic_fanatic_xenophobe
-			}
-			OR = {
-				has_ethic = ethic_spiritualist
-				has_ethic = ethic_fanatic_spiritualist
-			}
+			is_xenophobe = yes
+			is_spiritualist = yes
 		}
 	}
 	option = {
 		name = action.1.ac
 		trigger = {
-			OR = {
-				has_ethic = ethic_xenophobe
-				has_ethic = ethic_fanatic_xenophobe
-			}
-			OR = {
-				has_ethic = ethic_egalitarian
-				has_ethic = ethic_fanatic_egalitarian
-			}
+			is_xenophobe = yes
+			is_egalitarian = yes
 		}
 	}
 	option = {
 		name = action.1.ad
 		trigger = {
-			OR = {
-				has_ethic = ethic_xenophobe
-				has_ethic = ethic_fanatic_xenophobe
-			}
-			OR = {
-				has_ethic = ethic_authoritarian
-				has_ethic = ethic_fanatic_authoritarian
-			}
+			is_xenophobe = yes
+			is_authoritarian = yes
 		}
 	}
 	option = {
 		name = action.1.ae
 		trigger = {
-			OR = {
-				has_ethic = ethic_xenophobe
-				has_ethic = ethic_fanatic_xenophobe
-			}
-			OR = {
-				has_ethic = ethic_militarist
-				has_ethic = ethic_fanatic_militarist
-			}
+			is_xenophobe = yes
+			is_militarist = yes
 		}
 	}
 	option = {
 		name = action.1.af
 		trigger = {
-			OR = {
-				has_ethic = ethic_xenophobe
-				has_ethic = ethic_fanatic_xenophobe
-			}
-			OR = {
-				has_ethic = ethic_pacifist
-				has_ethic = ethic_fanatic_pacifist
-			}
+			is_xenophobe = yes
+			is_pacifist = yes
 		}
 	}
 	option = {
 		name = action.1.ag
 		trigger = {
-			OR = {
-				has_ethic = ethic_xenophile
-				has_ethic = ethic_fanatic_xenophile
-			}
-			OR = {
-				has_ethic = ethic_materialist
-				has_ethic = ethic_fanatic_materialist
-			}
+			is_xenophile = yes
+			is_materialist = yes
 		}
 	}
 	option = {
 		name = action.1.ah
 		trigger = {
-			OR = {
-				has_ethic = ethic_xenophile
-				has_ethic = ethic_fanatic_xenophile
-			}
-			OR = {
-				has_ethic = ethic_spiritualist
-				has_ethic = ethic_fanatic_spiritualist
-			}
+			is_xenophile = yes
+			is_spiritualist = yes
 		}
 	}
 	option = {
 		name = action.1.ai
 		trigger = {
-			OR = {
-				has_ethic = ethic_xenophile
-				has_ethic = ethic_fanatic_xenophile
-			}
-			OR = {
-				has_ethic = ethic_egalitarian
-				has_ethic = ethic_fanatic_egalitarian
-			}
+			is_xenophile = yes
+			is_egalitarian = yes
 		}
 	}
 	option = {
 		name = action.1.aj
 		trigger = {
-			OR = {
-				has_ethic = ethic_xenophile
-				has_ethic = ethic_fanatic_xenophile
-			}
-			OR = {
-				has_ethic = ethic_authoritarian
-				has_ethic = ethic_fanatic_authoritarian
-			}
+			is_xenophile = yes
+			is_authoritarian = yes
 		}
 	}
 	option = {
 		name = action.1.ak
 		trigger = {
-			OR = {
-				has_ethic = ethic_xenophile
-				has_ethic = ethic_fanatic_xenophile
-			}
-			OR = {
-				has_ethic = ethic_militarist
-				has_ethic = ethic_fanatic_militarist
-			}
+			is_xenophile = yes
+			is_militarist = yes
 		}
 	}
 	option = {
 		name = action.1.al
 		trigger = {
-			OR = {
-				has_ethic = ethic_xenophile
-				has_ethic = ethic_fanatic_xenophile
-			}
-			OR = {
-				has_ethic = ethic_pacifist
-				has_ethic = ethic_fanatic_pacifist
-			}
+			is_xenophile = yes
+			is_pacifist = yes
 		}
 	}
 	option = {
 		name = action.1.am
 		trigger = {
-			OR = {
-				has_ethic = ethic_authoritarian
-				has_ethic = ethic_fanatic_authoritarian
-			}
-			OR = {
-				has_ethic = ethic_spiritualist
-				has_ethic = ethic_fanatic_spiritualist
-			}
+			is_authoritarian = yes
+			is_spiritualist = yes
 		}
 	}
 	option = {
 		name = action.1.an
 		trigger = {
-			OR = {
-				has_ethic = ethic_authoritarian
-				has_ethic = ethic_fanatic_authoritarian
-			}
-			OR = {
-				has_ethic = ethic_materialist
-				has_ethic = ethic_fanatic_materialist
-			}
+			is_authoritarian = yes
+			is_materialist = yes
 		}
 	}
 	option = {
 		name = action.1.ao
 		trigger = {
-			OR = {
-				has_ethic = ethic_authoritarian
-				has_ethic = ethic_fanatic_authoritarian
-			}
-			OR = {
-				has_ethic = ethic_militarist
-				has_ethic = ethic_fanatic_militarist
-			}
+			is_authoritarian = yes
+			is_militarist = yes
 		}
 	}
 	option = {
 		name = action.1.ap
 		trigger = {
-			OR = {
-				has_ethic = ethic_authoritarian
-				has_ethic = ethic_fanatic_authoritarian
-			}
-			OR = {
-				has_ethic = ethic_pacifist
-				has_ethic = ethic_fanatic_pacifist
-			}
+			is_authoritarian = yes
+			is_pacifist = yes
 		}
 	}
 	option = {
 		name = action.1.aq
 		trigger = {
-			OR = {
-				has_ethic = ethic_egalitarian
-				has_ethic = ethic_fanatic_egalitarian
-			}
-			OR = {
-				has_ethic = ethic_spiritualist
-				has_ethic = ethic_fanatic_spiritualist
-			}
+			is_egalitarian = yes
+			is_spiritualist = yes
 		}
 	}
 	option = {
 		name = action.1.ar
 		trigger = {
-			OR = {
-				has_ethic = ethic_egalitarian
-				has_ethic = ethic_fanatic_egalitarian
-			}
-			OR = {
-				has_ethic = ethic_materialist
-				has_ethic = ethic_fanatic_materialist
-			}
+			is_egalitarian = yes
+			is_materialist = yes
 		}
 	}
 	option = {
 		name = action.1.as
 		trigger = {
-			OR = {
-				has_ethic = ethic_egalitarian
-				has_ethic = ethic_fanatic_egalitarian
-			}
-			OR = {
-				has_ethic = ethic_pacifist
-				has_ethic = ethic_fanatic_pacifist
-			}
+			is_egalitarian = yes
+			is_pacifist = yes
 		}
 	}
 	option = {
 		name = action.1.at
 		trigger = {
-			OR = {
-				has_ethic = ethic_egalitarian
-				has_ethic = ethic_fanatic_egalitarian
-			}
-			OR = {
-				has_ethic = ethic_militarist
-				has_ethic = ethic_fanatic_militarist
-			}
+			is_egalitarian = yes
+			is_militarist = yes
 		}
 	}
 	option = {
 		name = action.1.au
 		trigger = {
-			OR = {
-				has_ethic = ethic_spiritualist
-				has_ethic = ethic_fanatic_spiritualist
-			}
-			OR = {
-				has_ethic = ethic_militarist
-				has_ethic = ethic_fanatic_militarist
-			}
+			is_spiritualist = yes
+			is_militarist = yes
 		}
 	}
 	option = {
 		name = action.1.av
 		trigger = {
-			OR = {
-				has_ethic = ethic_spiritualist
-				has_ethic = ethic_fanatic_spiritualist
-			}
-			OR = {
-				has_ethic = ethic_pacifist
-				has_ethic = ethic_fanatic_pacifist
-			}
+			is_spiritualist = yes
+			is_pacifist = yes
 		}
 	}
 	option = {
 		name = action.1.aw
 		trigger = {
-			OR = {
-				has_ethic = ethic_materialist
-				has_ethic = ethic_fanatic_materialist
-			}
-			OR = {
-				has_ethic = ethic_militarist
-				has_ethic = ethic_fanatic_militarist
-			}
+			is_materialist = yes
+			is_militarist = yes
 		}
 	}
 	option = {
 		name = action.1.ax
 		trigger = {
-			OR = {
-				has_ethic = ethic_materialist
-				has_ethic = ethic_fanatic_materialist
-			}
-			OR = {
-				has_ethic = ethic_pacifist
-				has_ethic = ethic_fanatic_pacifist
-			}
+			is_materialist = yes
+			is_pacifist = yes
 		}
 	}
 	option = {
@@ -2080,10 +1837,8 @@ country_event = {
 				if = {
 					limit = {
 						event_target:contact_empire = {
-							OR = {
-								is_country_type = fallen_empire
-								is_country_type = awakened_fallen_empire
-							}
+							
+								is_fallen_empire = yes
 						}
 					}
 					set_country_flag = Story7
@@ -2121,10 +1876,8 @@ country_event = {
 			event_target:contact_empire = {
 				is_country_type = default
 				NOR = {
-					has_ethic = ethic_xenophobe
-					has_ethic = ethic_fanatic_xenophobe
-					has_ethic = ethic_xenophile
-					has_ethic = ethic_fanatic_xenophile
+					is_xenophobe = yes
+					is_xenophile = yes
 				}
 				OR = {
 					has_government = gov_star_empire
@@ -2143,14 +1896,10 @@ country_event = {
 			NOT = { is_same_species = event_target:contact_empire }
 			event_target:contact_empire = {
 				is_country_type = default
-				NOT = {
-					OR = {
-						has_ethic = ethic_xenophobe
-						has_ethic = ethic_fanatic_xenophobe
-						has_ethic = ethic_xenophile
-						has_ethic = ethic_fanatic_xenophile
-					}
-				}
+				NOR = {
+						is_xenophobe = yes
+						is_xenophile = yes
+}
 				OR = {
 					has_government = gov_theocratic_monarchy
 					has_government = gov_theocratic_dictatorship
@@ -2167,14 +1916,10 @@ country_event = {
 			NOT = { is_same_species = event_target:contact_empire }
 			event_target:contact_empire = {
 				is_country_type = default
-				NOT = {
-					OR = {
-						has_ethic = ethic_xenophobe
-						has_ethic = ethic_fanatic_xenophobe
-						has_ethic = ethic_xenophile
-						has_ethic = ethic_fanatic_xenophile
-					}
-				}
+				NOR = {
+						is_xenophobe = yes
+						is_xenophile = yes
+}
 				OR = {
 					has_government = gov_despotic_hegemony
 					has_government = gov_totalitarian_regime
@@ -2192,14 +1937,10 @@ country_event = {
 			NOT = { is_same_species = event_target:contact_empire }
 			event_target:contact_empire = {
 				is_country_type = default
-				NOT = {
-					OR = {
-						has_ethic = ethic_xenophobe
-						has_ethic = ethic_fanatic_xenophobe
-						has_ethic = ethic_xenophile
-						has_ethic = ethic_fanatic_xenophile
-					}
-				}
+				NOR = {
+						is_xenophobe = yes
+						is_xenophile = yes
+}
 				OR = {
 					has_government = gov_irenic_monarchy
 					has_government = gov_irenic_dictatorship
@@ -2216,14 +1957,10 @@ country_event = {
 			NOT = { is_same_species = event_target:contact_empire }
 			event_target:contact_empire = {
 				is_country_type = default
-				NOT = {
-					OR = {
-						has_ethic = ethic_xenophobe
-						has_ethic = ethic_fanatic_xenophobe
-						has_ethic = ethic_xenophile
-						has_ethic = ethic_fanatic_xenophile
-					}
-				}
+				NOR = {
+						is_xenophobe = yes
+						is_xenophile = yes
+}
 				OR = {
 					has_government = gov_despotic_empire
 					has_government = gov_feudal_empire
@@ -2242,14 +1979,10 @@ country_event = {
 			NOT = { is_same_species = event_target:contact_empire }
 			event_target:contact_empire = {
 				is_country_type = default
-				NOT = {
-					OR = {
-						has_ethic = ethic_xenophobe
-						has_ethic = ethic_fanatic_xenophobe
-						has_ethic = ethic_xenophile
-						has_ethic = ethic_fanatic_xenophile
-					}
-				}
+				NOR = {
+						is_xenophobe = yes
+						is_xenophile = yes
+}
 				OR = {
 					has_government = gov_military_junta
 					has_government = gov_war_council
@@ -2266,14 +1999,10 @@ country_event = {
 			NOT = { is_same_species = event_target:contact_empire }
 			event_target:contact_empire = {
 				is_country_type = default
-				NOT = {
-					OR = {
-						has_ethic = ethic_xenophobe
-						has_ethic = ethic_fanatic_xenophobe
-						has_ethic = ethic_xenophile
-						has_ethic = ethic_fanatic_xenophile
-					}
-				}
+				NOR = {
+						is_xenophobe = yes
+						is_xenophile = yes
+}
 				OR = {
 					has_government = gov_theocratic_oligarchy
 					has_government = gov_holy_tribunal
@@ -2289,14 +2018,10 @@ country_event = {
 			NOT = { is_same_species = event_target:contact_empire }
 			event_target:contact_empire = {
 				is_country_type = default
-				NOT = {
-					OR = {
-						has_ethic = ethic_xenophobe
-						has_ethic = ethic_fanatic_xenophobe
-						has_ethic = ethic_xenophile
-						has_ethic = ethic_fanatic_xenophile
-					}
-				}
+				NOR = {
+						is_xenophobe = yes
+						is_xenophile = yes
+}
 				OR = {
 					has_government = gov_executive_committee
 					has_government = gov_science_directorate
@@ -2313,10 +2038,8 @@ country_event = {
 			event_target:contact_empire = {
 				is_country_type = default
 				NOR = {
-					has_ethic = ethic_xenophobe
-					has_ethic = ethic_fanatic_xenophobe
-					has_ethic = ethic_xenophile
-					has_ethic = ethic_fanatic_xenophile
+					is_xenophobe = yes
+					is_xenophile = yes
 					AND = {
 						exists = event_target:ratling_country
 						is_same_value = event_target:ratling_country
@@ -2334,14 +2057,10 @@ country_event = {
 			NOT = { is_same_species = event_target:contact_empire }
 			event_target:contact_empire = {
 				is_country_type = default
-				NOT = {
-					OR = {
-						has_ethic = ethic_xenophobe
-						has_ethic = ethic_fanatic_xenophobe
-						has_ethic = ethic_xenophile
-						has_ethic = ethic_fanatic_xenophile
-					}
-				}
+				NOR = {
+						is_xenophobe = yes
+						is_xenophile = yes
+}
 				OR = {
 					has_government = gov_megacorporation
 					has_government = gov_plutocratic_oligarchy
@@ -2357,14 +2076,10 @@ country_event = {
 			NOT = { is_same_species = event_target:contact_empire }
 			event_target:contact_empire = {
 				is_country_type = default
-				NOT = {
-					OR = {
-						has_ethic = ethic_xenophobe
-						has_ethic = ethic_fanatic_xenophobe
-						has_ethic = ethic_xenophile
-						has_ethic = ethic_fanatic_xenophile
-					}
-				}
+				NOR = {
+						is_xenophobe = yes
+						is_xenophile = yes
+}
 				OR = {
 					has_government = gov_military_commissariat
 					has_government = gov_assembly_of_clans
@@ -2381,14 +2096,10 @@ country_event = {
 			NOT = { is_same_species = event_target:contact_empire }
 			event_target:contact_empire = {
 				is_country_type = default
-				NOT = {
-					OR = {
-						has_ethic = ethic_xenophobe
-						has_ethic = ethic_fanatic_xenophobe
-						has_ethic = ethic_xenophile
-						has_ethic = ethic_fanatic_xenophile
-					}
-				}
+				NOR = {
+						is_xenophobe = yes
+						is_xenophile = yes
+}
 				has_government = gov_theocratic_republic
 				NOT = { has_country_flag = special_intro_for@root }
 			}
@@ -2401,14 +2112,10 @@ country_event = {
 			NOT = { is_same_species = event_target:contact_empire }
 			event_target:contact_empire = {
 				is_country_type = default
-				NOT = {
-					OR = {
-						has_ethic = ethic_xenophobe
-						has_ethic = ethic_fanatic_xenophobe
-						has_ethic = ethic_xenophile
-						has_ethic = ethic_fanatic_xenophile
-					}
-				}
+				NOR = {
+						is_xenophobe = yes
+						is_xenophile = yes
+}
 				OR = {
 					has_government = gov_direct_democracy
 					has_government = gov_rational_consensus
@@ -2424,14 +2131,10 @@ country_event = {
 			NOT = { is_same_species = event_target:contact_empire }
 			event_target:contact_empire = {
 				is_country_type = default
-				NOT = {
-					OR = {
-						has_ethic = ethic_xenophobe
-						has_ethic = ethic_fanatic_xenophobe
-						has_ethic = ethic_xenophile
-						has_ethic = ethic_fanatic_xenophile
-					}
-				}
+				NOR = {
+						is_xenophobe = yes
+						is_xenophile = yes
+}
 				has_government = gov_moral_democracy
 				NOT = { has_country_flag = special_intro_for@root }
 			}
@@ -2444,14 +2147,10 @@ country_event = {
 			NOT = { is_same_species = event_target:contact_empire }
 			event_target:contact_empire = {
 				is_country_type = default
-				NOT = {
-					OR = {
-						has_ethic = ethic_xenophobe
-						has_ethic = ethic_fanatic_xenophobe
-						has_ethic = ethic_xenophile
-						has_ethic = ethic_fanatic_xenophile
-					}
-				}
+				NOR = {
+						is_xenophobe = yes
+						is_xenophile = yes
+}
 				has_government = gov_representative_democracy
 				NOT = { has_country_flag = special_intro_for@root }
 			}
@@ -2466,19 +2165,16 @@ country_event = {
 			NOT = { is_same_species = event_target:contact_empire }
 			event_target:contact_empire = {
 				is_country_type = default
-				OR = {
-					has_ethic = ethic_xenophobe
-					has_ethic = ethic_fanatic_xenophobe
-				}
+				is_xenophobe = yes
 				OR = {
 					has_government = gov_star_empire
 					has_government = gov_military_dictatorship
 					has_government = gov_martial_empire
 					has_government = gov_martial_dictatorship
 				}
-				OR = {
-					NOT = { has_valid_civic = civic_fanatic_purifiers }
-					NOT = { species_portrait = mam3 }
+				NAND = {
+					has_valid_civic = civic_fanatic_purifiers
+					species_portrait = mam3
 				}
 				NOT = { has_country_flag = special_intro_for@root }
 			}
@@ -2491,18 +2187,15 @@ country_event = {
 			NOT = { is_same_species = event_target:contact_empire }
 			event_target:contact_empire = {
 				is_country_type = default
-				OR = {
-					has_ethic = ethic_xenophobe
-					has_ethic = ethic_fanatic_xenophobe
-				}
+				is_xenophobe = yes
 				OR = {
 					has_government = gov_theocratic_monarchy
 					has_government = gov_theocratic_dictatorship
 					has_government = gov_divine_empire
 				}
-				OR = {
-					NOT = { has_valid_civic = civic_fanatic_purifiers }
-					NOT = { species_portrait = mam3 }
+				NAND = {
+					has_valid_civic = civic_fanatic_purifiers
+					species_portrait = mam3
 				}
 				NOT = { has_country_flag = special_intro_for@root }
 			}
@@ -2515,19 +2208,16 @@ country_event = {
 			NOT = { is_same_species = event_target:contact_empire }
 			event_target:contact_empire = {
 				is_country_type = default
-				OR = {
-					has_ethic = ethic_xenophobe
-					has_ethic = ethic_fanatic_xenophobe
-				}
+				is_xenophobe = yes
 				OR = {
 					has_government = gov_despotic_hegemony
 					has_government = gov_totalitarian_regime
 					has_government = gov_illuminated_autocracy
 					has_government = gov_technocratic_dictatorship
 				}
-				OR = {
-					NOT = { has_valid_civic = civic_fanatic_purifiers }
-					NOT = { species_portrait = mam3 }
+				NAND = {
+					has_valid_civic = civic_fanatic_purifiers
+					species_portrait = mam3
 				}
 				NOT = { has_country_flag = special_intro_for@root }
 			}
@@ -2540,18 +2230,15 @@ country_event = {
 			NOT = { is_same_species = event_target:contact_empire }
 			event_target:contact_empire = {
 				is_country_type = default
-				OR = {
-					has_ethic = ethic_xenophobe
-					has_ethic = ethic_fanatic_xenophobe
-				}
+				is_xenophobe = yes
 				OR = {
 					has_government = gov_irenic_monarchy
 					has_government = gov_irenic_dictatorship
 					has_government = gov_celestial_empire
 				}
-				OR = {
-					NOT = { has_valid_civic = civic_fanatic_purifiers }
-					NOT = { species_portrait = mam3 }
+				NAND = {
+					has_valid_civic = civic_fanatic_purifiers
+					species_portrait = mam3
 				}
 				NOT = { has_country_flag = special_intro_for@root }
 			}
@@ -2564,10 +2251,7 @@ country_event = {
 			NOT = { is_same_species = event_target:contact_empire }
 			event_target:contact_empire = {
 				is_country_type = default
-				OR = {
-					has_ethic = ethic_xenophobe
-					has_ethic = ethic_fanatic_xenophobe
-				}
+				is_xenophobe = yes
 				OR = {
 					has_government = gov_despotic_empire
 					has_government = gov_feudal_empire
@@ -2575,9 +2259,9 @@ country_event = {
 					has_government = gov_enlightened_monarchy
 					has_government = gov_elective_monarchy
 				}
-				OR = {
-					NOT = { has_valid_civic = civic_fanatic_purifiers }
-					NOT = { species_portrait = mam3 }
+				NAND = {
+					has_valid_civic = civic_fanatic_purifiers
+					species_portrait = mam3
 				}
 				NOT = { has_country_flag = special_intro_for@root }
 			}
@@ -2590,18 +2274,15 @@ country_event = {
 			NOT = { is_same_species = event_target:contact_empire }
 			event_target:contact_empire = {
 				is_country_type = default
-				OR = {
-					has_ethic = ethic_xenophobe
-					has_ethic = ethic_fanatic_xenophobe
-				}
+				is_xenophobe = yes
 				OR = {
 					has_government = gov_military_junta
 					has_government = gov_war_council
 					has_government = gov_citizen_stratocracy
 				}
-				OR = {
-					NOT = { has_valid_civic = civic_fanatic_purifiers }
-					NOT = { species_portrait = mam3 }
+				NAND = {
+					has_valid_civic = civic_fanatic_purifiers
+					species_portrait = mam3
 				}
 				NOT = { has_country_flag = special_intro_for@root }
 			}
@@ -2614,17 +2295,14 @@ country_event = {
 			NOT = { is_same_species = event_target:contact_empire }
 			event_target:contact_empire = {
 				is_country_type = default
-				OR = {
-					has_ethic = ethic_xenophobe
-					has_ethic = ethic_fanatic_xenophobe
-				}
+				is_xenophobe = yes
 				OR = {
 					has_government = gov_theocratic_oligarchy
 					has_government = gov_holy_tribunal
 				}
-				OR = {
-					NOT = { has_valid_civic = civic_fanatic_purifiers }
-					NOT = { species_portrait = mam3 }
+				NAND = {
+					has_valid_civic = civic_fanatic_purifiers
+					species_portrait = mam3
 				}
 				NOT = { has_country_flag = special_intro_for@root }
 			}
@@ -2637,17 +2315,14 @@ country_event = {
 			NOT = { is_same_species = event_target:contact_empire }
 			event_target:contact_empire = {
 				is_country_type = default
-				OR = {
-					has_ethic = ethic_xenophobe
-					has_ethic = ethic_fanatic_xenophobe
-				}
+				is_xenophobe = yes
 				OR = {
 					has_government = gov_executive_committee
 					has_government = gov_science_directorate
 				}
-				OR = {
-					NOT = { has_valid_civic = civic_fanatic_purifiers }
-					NOT = { species_portrait = mam3 }
+				NAND = {
+					has_valid_civic = civic_fanatic_purifiers
+					species_portrait = mam3
 				}
 				NOT = { has_country_flag = special_intro_for@root }
 			}
@@ -2660,14 +2335,11 @@ country_event = {
 			NOT = { is_same_species = event_target:contact_empire }
 			event_target:contact_empire = {
 				is_country_type = default
-				OR = {
-					has_ethic = ethic_xenophobe
-					has_ethic = ethic_fanatic_xenophobe
-				}
+				is_xenophobe = yes
 				has_government = gov_irenic_bureaucracy
-				OR = {
-					NOT = { has_valid_civic = civic_fanatic_purifiers }
-					NOT = { species_portrait = mam3 }
+				NAND = {
+					has_valid_civic = civic_fanatic_purifiers
+					species_portrait = mam3
 				}
 				NOT = { has_country_flag = special_intro_for@root }
 			}
@@ -2680,17 +2352,14 @@ country_event = {
 			NOT = { is_same_species = event_target:contact_empire }
 			event_target:contact_empire = {
 				is_country_type = default
-				OR = {
-					has_ethic = ethic_xenophobe
-					has_ethic = ethic_fanatic_xenophobe
-				}
+				is_xenophobe = yes
 				OR = {
 					has_government = gov_megacorporation
 					has_government = gov_plutocratic_oligarchy
 				}
-				OR = {
-					NOT = { has_valid_civic = civic_fanatic_purifiers }
-					NOT = { species_portrait = mam3 }
+				NAND = {
+					has_valid_civic = civic_fanatic_purifiers
+					species_portrait = mam3
 				}
 				NOT = { has_country_flag = special_intro_for@root }
 			}
@@ -2703,18 +2372,15 @@ country_event = {
 			NOT = { is_same_species = event_target:contact_empire }
 			event_target:contact_empire = {
 				is_country_type = default
-				OR = {
-					has_ethic = ethic_xenophobe
-					has_ethic = ethic_fanatic_xenophobe
-				}
+				is_xenophobe = yes
 				OR = {
 					has_government = gov_military_commissariat
 					has_government = gov_assembly_of_clans
 					has_government = gov_citizen_republic
 				}
-				OR = {
-					NOT = { has_valid_civic = civic_fanatic_purifiers }
-					NOT = { species_portrait = mam3 }
+				NAND = {
+					has_valid_civic = civic_fanatic_purifiers
+					species_portrait = mam3
 				}
 				NOT = { has_country_flag = special_intro_for@root }
 			}
@@ -2727,14 +2393,11 @@ country_event = {
 			NOT = { is_same_species = event_target:contact_empire }
 			event_target:contact_empire = {
 				is_country_type = default
-				OR = {
-					has_ethic = ethic_xenophobe
-					has_ethic = ethic_fanatic_xenophobe
-				}
+				is_xenophobe = yes
 				has_government = gov_theocratic_republic
-				OR = {
-					NOT = { has_valid_civic = civic_fanatic_purifiers }
-					NOT = { species_portrait = mam3 }
+				NAND = {
+					has_valid_civic = civic_fanatic_purifiers
+					species_portrait = mam3
 				}
 				NOT = { has_country_flag = special_intro_for@root }
 			}
@@ -2747,17 +2410,14 @@ country_event = {
 			NOT = { is_same_species = event_target:contact_empire }
 			event_target:contact_empire = {
 				is_country_type = default
-				OR = {
-					has_ethic = ethic_xenophobe
-					has_ethic = ethic_fanatic_xenophobe
-				}
+				is_xenophobe = yes
 				OR = {
 					has_government = gov_direct_democracy
 					has_government = gov_rational_consensus
 				}
-				OR = {
-					NOT = { has_valid_civic = civic_fanatic_purifiers }
-					NOT = { species_portrait = mam3 }
+				NAND = {
+					has_valid_civic = civic_fanatic_purifiers
+					species_portrait = mam3
 				}
 				NOT = { has_country_flag = special_intro_for@root }
 			}
@@ -2770,14 +2430,11 @@ country_event = {
 			NOT = { is_same_species = event_target:contact_empire }
 			event_target:contact_empire = {
 				is_country_type = default
-				OR = {
-					has_ethic = ethic_xenophobe
-					has_ethic = ethic_fanatic_xenophobe
-				}
+				is_xenophobe = yes
 				has_government = gov_moral_democracy
-				OR = {
-					NOT = { has_valid_civic = civic_fanatic_purifiers }
-					NOT = { species_portrait = mam3 }
+				NAND = {
+					has_valid_civic = civic_fanatic_purifiers
+					species_portrait = mam3
 				}
 				NOT = { has_country_flag = special_intro_for@root }
 			}
@@ -2790,14 +2447,11 @@ country_event = {
 			NOT = { is_same_species = event_target:contact_empire }
 			event_target:contact_empire = {
 				is_country_type = default
-				OR = {
-					has_ethic = ethic_xenophobe
-					has_ethic = ethic_fanatic_xenophobe
-				}
+				is_xenophobe = yes
 				has_government = gov_representative_democracy
-				OR = {
-					NOT = { has_valid_civic = civic_fanatic_purifiers }
-					NOT = { species_portrait = mam3 }
+				NAND = {
+					has_valid_civic = civic_fanatic_purifiers
+					species_portrait = mam3
 				}
 				NOT = { has_country_flag = special_intro_for@root }
 			}
@@ -2813,8 +2467,7 @@ country_event = {
 			event_target:contact_empire = {
 				is_country_type = default
 				OR = {
-					has_ethic = ethic_xenophile
-					has_ethic = ethic_fanatic_xenophile
+					is_xenophile = yes
 				}
 				OR = {
 					has_government = gov_star_empire
@@ -2834,8 +2487,7 @@ country_event = {
 			event_target:contact_empire = {
 				is_country_type = default
 				OR = {
-					has_ethic = ethic_xenophile
-					has_ethic = ethic_fanatic_xenophile
+					is_xenophile = yes
 				}
 				OR = {
 					has_government = gov_theocratic_monarchy
@@ -2854,8 +2506,7 @@ country_event = {
 			event_target:contact_empire = {
 				is_country_type = default
 				OR = {
-					has_ethic = ethic_xenophile
-					has_ethic = ethic_fanatic_xenophile
+					is_xenophile = yes
 				}
 				OR = {
 					has_government = gov_despotic_hegemony
@@ -2875,8 +2526,7 @@ country_event = {
 			event_target:contact_empire = {
 				is_country_type = default
 				OR = {
-					has_ethic = ethic_xenophile
-					has_ethic = ethic_fanatic_xenophile
+					is_xenophile = yes
 				}
 				OR = {
 					has_government = gov_irenic_monarchy
@@ -2895,8 +2545,7 @@ country_event = {
 			event_target:contact_empire = {
 				is_country_type = default
 				OR = {
-					has_ethic = ethic_xenophile
-					has_ethic = ethic_fanatic_xenophile
+					is_xenophile = yes
 				}
 				OR = {
 					has_government = gov_despotic_empire
@@ -2917,8 +2566,7 @@ country_event = {
 			event_target:contact_empire = {
 				is_country_type = default
 				OR = {
-					has_ethic = ethic_xenophile
-					has_ethic = ethic_fanatic_xenophile
+					is_xenophile = yes
 				}
 				OR = {
 					has_government = gov_military_junta
@@ -2937,8 +2585,7 @@ country_event = {
 			event_target:contact_empire = {
 				is_country_type = default
 				OR = {
-					has_ethic = ethic_xenophile
-					has_ethic = ethic_fanatic_xenophile
+					is_xenophile = yes
 				}
 				OR = {
 					has_government = gov_theocratic_oligarchy
@@ -2956,8 +2603,7 @@ country_event = {
 			event_target:contact_empire = {
 				is_country_type = default
 				OR = {
-					has_ethic = ethic_xenophile
-					has_ethic = ethic_fanatic_xenophile
+					is_xenophile = yes
 				}
 				OR = {
 					has_government = gov_executive_committee
@@ -2975,8 +2621,7 @@ country_event = {
 			event_target:contact_empire = {
 				is_country_type = default
 				OR = {
-					has_ethic = ethic_xenophile
-					has_ethic = ethic_fanatic_xenophile
+					is_xenophile = yes
 				}
 				has_government = gov_irenic_bureaucracy
 				NOT = { has_country_flag = special_intro_for@root }
@@ -2991,8 +2636,7 @@ country_event = {
 			event_target:contact_empire = {
 				is_country_type = default
 				OR = {
-					has_ethic = ethic_xenophile
-					has_ethic = ethic_fanatic_xenophile
+					is_xenophile = yes
 				}
 				OR = {
 					has_government = gov_megacorporation
@@ -3010,8 +2654,7 @@ country_event = {
 			event_target:contact_empire = {
 				is_country_type = default
 				OR = {
-					has_ethic = ethic_xenophile
-					has_ethic = ethic_fanatic_xenophile
+					is_xenophile = yes
 				}
 				OR = {
 					has_government = gov_military_commissariat
@@ -3030,8 +2673,7 @@ country_event = {
 			event_target:contact_empire = {
 				is_country_type = default
 				OR = {
-					has_ethic = ethic_xenophile
-					has_ethic = ethic_fanatic_xenophile
+					is_xenophile = yes
 				}
 				has_government = gov_theocratic_republic
 				NOT = { has_country_flag = special_intro_for@root }
@@ -3046,8 +2688,7 @@ country_event = {
 			event_target:contact_empire = {
 				is_country_type = default
 				OR = {
-					has_ethic = ethic_xenophile
-					has_ethic = ethic_fanatic_xenophile
+					is_xenophile = yes
 				}
 				OR = {
 					has_government = gov_direct_democracy
@@ -3065,8 +2706,7 @@ country_event = {
 			event_target:contact_empire = {
 				is_country_type = default
 				OR = {
-					has_ethic = ethic_xenophile
-					has_ethic = ethic_fanatic_xenophile
+					is_xenophile = yes
 				}
 				has_government = gov_moral_democracy
 				NOT = { has_country_flag = special_intro_for@root }
@@ -3081,8 +2721,7 @@ country_event = {
 			event_target:contact_empire = {
 				is_country_type = default
 				OR = {
-					has_ethic = ethic_xenophile
-					has_ethic = ethic_fanatic_xenophile
+					is_xenophile = yes
 				}
 				has_government = gov_representative_democracy
 				NOT = { has_country_flag = special_intro_for@root }
@@ -3106,10 +2745,14 @@ country_event = {
 		trigger = {
 			event_target:contact_empire = {
 				is_country_type = fallen_empire
-				NOT = { has_ethic = ethic_fanatic_xenophobe }
-				NOT = { has_ethic = ethic_fanatic_xenophile }
-				NOT = { has_ethic = ethic_fanatic_militarist }
-				NOT = { has_ethic = ethic_fanatic_materialist }
+				NOR = {
+					has_ethic = ethic_fanatic_xenophobe
+					has_ethic = ethic_fanatic_xenophile
+				}
+				NOR = {
+					has_ethic = ethic_fanatic_militarist
+					has_ethic = ethic_fanatic_materialist
+				}
 				NOT = { has_ethic = ethic_fanatic_spiritualist }
 			}
 		}
@@ -3217,8 +2860,10 @@ country_event = {
 			event_target:contact_empire = {
 				is_country_type = default
 				has_authority = auth_hive_mind
-				NOT = { has_valid_civic = civic_hive_devouring_swarm }
-				NOT = { has_country_flag = special_intro_for@root }
+				NOR = {
+					has_valid_civic = civic_hive_devouring_swarm
+					has_country_flag = special_intro_for@root
+				}
 			}
 		}
 	}
@@ -3280,10 +2925,7 @@ country_event = {
 		text = action.1.desc_71
 		trigger = {
 			NOT = { is_same_species = event_target:contact_empire }
-			OR = {
-				has_authority = auth_machine_intelligence
-				has_country_flag = synthetic_empire
-			}
+			is_synthetic_empire = yes
 			event_target:contact_empire = {
 				is_country_type = default
 				OR = {
@@ -3318,10 +2960,7 @@ country_event = {
 		text = action.1.desc_73
 		trigger = {
 			NOT = { is_same_species = event_target:contact_empire }
-			OR = {
-				has_authority = auth_machine_intelligence
-				has_country_flag = synthetic_empire
-			}
+			is_synthetic_empire = yes
 			event_target:contact_empire = {
 				is_country_type = default
 				has_government = gov_machine_terminator
@@ -3352,10 +2991,7 @@ country_event = {
 		text = action.1.desc_75
 		trigger = {
 			NOT = { is_same_species = event_target:contact_empire }
-			OR = {
-				has_authority = auth_machine_intelligence
-				has_country_flag = synthetic_empire
-			}
+			is_synthetic_empire = yes
 			event_target:contact_empire = {
 				is_country_type = default
 				has_government = gov_machine_assimilator
@@ -3386,10 +3022,7 @@ country_event = {
 		text = action.1.desc_77
 		trigger = {
 			NOT = { is_same_species = event_target:contact_empire }
-			OR = {
-				has_authority = auth_machine_intelligence
-				has_country_flag = synthetic_empire
-			}
+			is_synthetic_empire = yes
 			event_target:contact_empire = {
 				is_country_type = default
 				has_government = gov_machine_servitor
@@ -3420,10 +3053,7 @@ country_event = {
 		text = action.1.desc_79
 		trigger = {
 			NOT = { is_same_species = event_target:contact_empire }
-			OR = {
-				has_authority = auth_machine_intelligence
-				has_country_flag = synthetic_empire
-			}
+			is_synthetic_empire = yes
 			event_target:contact_empire = {
 				is_country_type = fallen_empire
 				has_authority = auth_machine_intelligence
@@ -3647,22 +3277,14 @@ country_event = {
 		name = action.1.a
 		trigger = {
 			NOR = {
-				has_ethic = ethic_xenophobe
-				has_ethic = ethic_fanatic_xenophobe
-				has_ethic = ethic_xenophile
-				has_ethic = ethic_fanatic_xenophile
-				has_ethic = ethic_egalitarian
-				has_ethic = ethic_fanatic_egalitarian
-				has_ethic = ethic_authoritarian
-				has_ethic = ethic_fanatic_authoritarian
-				has_ethic = ethic_militarist
-				has_ethic = ethic_fanatic_militarist
-				has_ethic = ethic_pacifist
-				has_ethic = ethic_fanatic_pacifist
-				has_ethic = ethic_materialist
-				has_ethic = ethic_fanatic_materialist
-				has_ethic = ethic_spiritualist
-				has_ethic = ethic_fanatic_spiritualist
+				is_xenophobe = yes
+				is_xenophile = yes
+				is_egalitarian = yes
+				is_authoritarian = yes
+				is_militarist = yes
+				is_pacifist = yes
+				is_materialist = yes
+				is_spiritualist = yes
 				has_ethic = ethic_gestalt_consciousness
 			}
 		}
@@ -3838,313 +3460,169 @@ country_event = {
 	option = {
 		name = action.1.aa
 		trigger = {
-			OR = {
-				has_ethic = ethic_xenophobe
-				has_ethic = ethic_fanatic_xenophobe
-			}
-			OR = {
-				has_ethic = ethic_materialist
-				has_ethic = ethic_fanatic_materialist
-			}
+			is_xenophobe = yes
+			is_materialist = yes
 		}
 	}
 	option = {
 		name = action.1.ab
 		trigger = {
-			OR = {
-				has_ethic = ethic_xenophobe
-				has_ethic = ethic_fanatic_xenophobe
-			}
-			OR = {
-				has_ethic = ethic_spiritualist
-				has_ethic = ethic_fanatic_spiritualist
-			}
+			is_xenophobe = yes
+			is_spiritualist = yes
 		}
 	}
 	option = {
 		name = action.1.ac
 		trigger = {
-			OR = {
-				has_ethic = ethic_xenophobe
-				has_ethic = ethic_fanatic_xenophobe
-			}
-			OR = {
-				has_ethic = ethic_egalitarian
-				has_ethic = ethic_fanatic_egalitarian
-			}
+			is_xenophobe = yes
+			is_egalitarian = yes
 		}
 	}
 	option = {
 		name = action.1.ad
 		trigger = {
-			OR = {
-				has_ethic = ethic_xenophobe
-				has_ethic = ethic_fanatic_xenophobe
-			}
-			OR = {
-				has_ethic = ethic_authoritarian
-				has_ethic = ethic_fanatic_authoritarian
-			}
+			is_xenophobe = yes
+			is_authoritarian = yes
 		}
 	}
 	option = {
 		name = action.1.ae
 		trigger = {
-			OR = {
-				has_ethic = ethic_xenophobe
-				has_ethic = ethic_fanatic_xenophobe
-			}
-			OR = {
-				has_ethic = ethic_militarist
-				has_ethic = ethic_fanatic_militarist
-			}
+			is_xenophobe = yes
+			is_militarist = yes
 		}
 	}
 	option = {
 		name = action.1.af
 		trigger = {
-			OR = {
-				has_ethic = ethic_xenophobe
-				has_ethic = ethic_fanatic_xenophobe
-			}
-			OR = {
-				has_ethic = ethic_pacifist
-				has_ethic = ethic_fanatic_pacifist
-			}
+			is_xenophobe = yes
+			is_pacifist = yes
 		}
 	}
 	option = {
 		name = action.1.ag
 		trigger = {
-			OR = {
-				has_ethic = ethic_xenophile
-				has_ethic = ethic_fanatic_xenophile
-			}
-			OR = {
-				has_ethic = ethic_materialist
-				has_ethic = ethic_fanatic_materialist
-			}
+			is_xenophile = yes
+			is_materialist = yes
 		}
 	}
 	option = {
 		name = action.1.ah
 		trigger = {
-			OR = {
-				has_ethic = ethic_xenophile
-				has_ethic = ethic_fanatic_xenophile
-			}
-			OR = {
-				has_ethic = ethic_spiritualist
-				has_ethic = ethic_fanatic_spiritualist
-			}
+			is_xenophile = yes
+			is_spiritualist = yes
 		}
 	}
 	option = {
 		name = action.1.ai
 		trigger = {
-			OR = {
-				has_ethic = ethic_xenophile
-				has_ethic = ethic_fanatic_xenophile
-			}
-			OR = {
-				has_ethic = ethic_egalitarian
-				has_ethic = ethic_fanatic_egalitarian
-			}
+			is_xenophile = yes
+			is_egalitarian = yes
 		}
 	}
 	option = {
 		name = action.1.aj
 		trigger = {
-			OR = {
-				has_ethic = ethic_xenophile
-				has_ethic = ethic_fanatic_xenophile
-			}
-			OR = {
-				has_ethic = ethic_authoritarian
-				has_ethic = ethic_fanatic_authoritarian
-			}
+			is_xenophile = yes
+			is_authoritarian = yes
 		}
 	}
 	option = {
 		name = action.1.ak
 		trigger = {
-			OR = {
-				has_ethic = ethic_xenophile
-				has_ethic = ethic_fanatic_xenophile
-			}
-			OR = {
-				has_ethic = ethic_militarist
-				has_ethic = ethic_fanatic_militarist
-			}
+			is_xenophile = yes
+			is_militarist = yes
 		}
 	}
 	option = {
 		name = action.1.al
 		trigger = {
-			OR = {
-				has_ethic = ethic_xenophile
-				has_ethic = ethic_fanatic_xenophile
-			}
-			OR = {
-				has_ethic = ethic_pacifist
-				has_ethic = ethic_fanatic_pacifist
-			}
+			is_xenophile = yes
+			is_pacifist = yes
 		}
 	}
 	option = {
 		name = action.1.am
 		trigger = {
-			OR = {
-				has_ethic = ethic_authoritarian
-				has_ethic = ethic_fanatic_authoritarian
-			}
-			OR = {
-				has_ethic = ethic_spiritualist
-				has_ethic = ethic_fanatic_spiritualist
-			}
+			is_authoritarian = yes
+			is_spiritualist = yes
 		}
 	}
 	option = {
 		name = action.1.an
 		trigger = {
-			OR = {
-				has_ethic = ethic_authoritarian
-				has_ethic = ethic_fanatic_authoritarian
-			}
-			OR = {
-				has_ethic = ethic_materialist
-				has_ethic = ethic_fanatic_materialist
-			}
+			is_authoritarian = yes
+			is_materialist = yes
 		}
 	}
 	option = {
 		name = action.1.ao
 		trigger = {
-			OR = {
-				has_ethic = ethic_authoritarian
-				has_ethic = ethic_fanatic_authoritarian
-			}
-			OR = {
-				has_ethic = ethic_militarist
-				has_ethic = ethic_fanatic_militarist
-			}
+			is_authoritarian = yes
+			is_militarist = yes
 		}
 	}
 	option = {
 		name = action.1.ap
 		trigger = {
-			OR = {
-				has_ethic = ethic_authoritarian
-				has_ethic = ethic_fanatic_authoritarian
-			}
-			OR = {
-				has_ethic = ethic_pacifist
-				has_ethic = ethic_fanatic_pacifist
-			}
+			is_authoritarian = yes
+			is_pacifist = yes
 		}
 	}
 	option = {
 		name = action.1.aq
 		trigger = {
-			OR = {
-				has_ethic = ethic_egalitarian
-				has_ethic = ethic_fanatic_egalitarian
-			}
-			OR = {
-				has_ethic = ethic_spiritualist
-				has_ethic = ethic_fanatic_spiritualist
-			}
+			is_egalitarian = yes
+			is_spiritualist = yes
 		}
 	}
 	option = {
 		name = action.1.ar
 		trigger = {
-			OR = {
-				has_ethic = ethic_egalitarian
-				has_ethic = ethic_fanatic_egalitarian
-			}
-			OR = {
-				has_ethic = ethic_materialist
-				has_ethic = ethic_fanatic_materialist
-			}
+			is_egalitarian = yes
+			is_materialist = yes
 		}
 	}
 	option = {
 		name = action.1.as
 		trigger = {
-			OR = {
-				has_ethic = ethic_egalitarian
-				has_ethic = ethic_fanatic_egalitarian
-			}
-			OR = {
-				has_ethic = ethic_pacifist
-				has_ethic = ethic_fanatic_pacifist
-			}
+			is_egalitarian = yes
+			is_pacifist = yes
 		}
 	}
 	option = {
 		name = action.1.at
 		trigger = {
-			OR = {
-				has_ethic = ethic_egalitarian
-				has_ethic = ethic_fanatic_egalitarian
-			}
-			OR = {
-				has_ethic = ethic_militarist
-				has_ethic = ethic_fanatic_militarist
-			}
+			is_egalitarian = yes
+			is_militarist = yes
 		}
 	}
 	option = {
 		name = action.1.au
 		trigger = {
-			OR = {
-				has_ethic = ethic_spiritualist
-				has_ethic = ethic_fanatic_spiritualist
-			}
-			OR = {
-				has_ethic = ethic_militarist
-				has_ethic = ethic_fanatic_militarist
-			}
+			is_spiritualist = yes
+			is_militarist = yes
 		}
 	}
 	option = {
 		name = action.1.av
 		trigger = {
-			OR = {
-				has_ethic = ethic_spiritualist
-				has_ethic = ethic_fanatic_spiritualist
-			}
-			OR = {
-				has_ethic = ethic_pacifist
-				has_ethic = ethic_fanatic_pacifist
-			}
+			is_spiritualist = yes
+			is_pacifist = yes
 		}
 	}
 	option = {
 		name = action.1.aw
 		trigger = {
-			OR = {
-				has_ethic = ethic_materialist
-				has_ethic = ethic_fanatic_materialist
-			}
-			OR = {
-				has_ethic = ethic_militarist
-				has_ethic = ethic_fanatic_militarist
-			}
+			is_materialist = yes
+			is_militarist = yes
 		}
 	}
 	option = {
 		name = action.1.ax
 		trigger = {
-			OR = {
-				has_ethic = ethic_materialist
-				has_ethic = ethic_fanatic_materialist
-			}
-			OR = {
-				has_ethic = ethic_pacifist
-				has_ethic = ethic_fanatic_pacifist
-			}
+			is_materialist = yes
+			is_pacifist = yes
 		}
 	}
 	option = {
@@ -4203,10 +3681,8 @@ country_event = {
 				if = {
 					limit = {
 						event_target:contact_empire = {
-							OR = {
-								is_country_type = fallen_empire
-								is_country_type = awakened_fallen_empire
-							}
+							
+								is_fallen_empire = yes
 						}
 					}
 					set_country_flag = Story7
@@ -4259,8 +3735,10 @@ country_event = {
 	trigger = {
 		is_ai = no
 		event_target:primitive_civ = {
-			NOT = { has_country_flag = humans_late_medieval_age }
-			NOT = { has_country_flag = benefactor_empire }
+			NOR = {
+				has_country_flag = humans_late_medieval_age
+				has_country_flag = benefactor_empire
+			}
 			OR = {
 				has_country_flag = stone_age
 				has_country_flag = bronze_age
@@ -4526,8 +4004,7 @@ country_event = {
 		if = {
 			limit = {
 				OR = {
-					has_ethic = ethic_xenophile
-					has_ethic = ethic_fanatic_xenophile
+					is_xenophile = yes
 				}
 			}
 			add_monthly_resource_mult = {
@@ -4553,17 +4030,13 @@ country_event = {
 	option = {
 		trigger = {
 			fromfrom = { has_relation_flag = { who = root flag = AbandonedRefugees } }
-			NOR = {
-				has_ethic = ethic_fanatic_xenophobe
-				has_ethic = ethic_xenophobe
-			}
+			is_xenophobe = no
 		}
 		name = WORRYING
 		if = {
 			limit = {
 				OR = {
-					has_ethic = ethic_xenophile
-					has_ethic = ethic_fanatic_xenophile
+					is_xenophile = yes
 				}
 			}
 			add_monthly_resource_mult = {
@@ -4598,8 +4071,7 @@ country_event = {
 		if = {
 			limit = {
 				OR = {
-					has_ethic = ethic_xenophile
-					has_ethic = ethic_fanatic_xenophile
+					is_xenophile = yes
 				}
 			}
 			add_monthly_resource_mult = {
@@ -4666,8 +4138,10 @@ ship_event = {
 			limit = {
 				exists = event_target:primitive_civ
 				event_target:primitive_civ = {
-					NOT = { has_country_flag = humans_late_medieval_age }
-					NOT = { has_country_flag = benefactor_empire }
+					NOR = {
+						has_country_flag = humans_late_medieval_age
+						has_country_flag = benefactor_empire
+					}
 					OR = {
 						has_country_flag = stone_age
 						has_country_flag = bronze_age
@@ -5119,10 +4593,7 @@ country_event = {
 				has_ethic = ethic_fanatic_militarist
 				has_ethic = ethic_militarist
 			}
-			NOR = {
-				has_ethic = ethic_fanatic_xenophobe
-				has_ethic = ethic_xenophobe
-			}
+			is_xenophobe = no
 		}
 	}
 	option = {
@@ -5614,8 +5085,10 @@ planet_event = {
 		every_country = {
 			limit = {
 				has_communications = FROM
-				NOT = { is_country = FROM }
-				NOT = { is_same_species = ROOT }
+				NOR = {
+					is_country = FROM
+					is_same_species = ROOT
+				}
 				NOT = { has_ai_personality_behaviour = purger }
 				OR = {
 					is_country_type = default
@@ -5920,7 +5393,7 @@ country_event = {
 				every_fleet_in_system = {
 					limit = {
 						is_ship_class = shipclass_military_station
-						#owner = { is_same_value = prevprevprev.owner }
+						#is_owned_by = prevprevprev.owner
 					}
 					set_owner = root
 				}
@@ -6267,20 +5740,16 @@ fleet_event = {
 				AND = {
 					exists = space_owner
 					space_owner = {
-						OR = {
-							is_country_type = fallen_empire
-							is_country_type = awakened_fallen_empire
-						}
+						
+							is_fallen_empire = yes
 						NOT = { has_communications = root.owner }
 					}
 				}
 				any_neighbor_system = {
 					exists = space_owner
 					space_owner = {
-						OR = {
-							is_country_type = fallen_empire
-							is_country_type = awakened_fallen_empire
-						}
+						
+							is_fallen_empire = yes
 						NOT = { has_communications = root.owner }
 					}
 				}
@@ -6294,10 +5763,8 @@ fleet_event = {
 				limit = {
 					exists = space_owner
 					space_owner = {
-						OR = {
-							is_country_type = fallen_empire
-							is_country_type = awakened_fallen_empire
-						}
+						
+							is_fallen_empire = yes
 						NOT = { has_communications = root.owner }
 					}
 				}
@@ -6310,10 +5777,8 @@ fleet_event = {
 					limit = {
 						exists = space_owner
 						space_owner = {
-							OR = {
-								is_country_type = fallen_empire
-								is_country_type = awakened_fallen_empire
-							}
+							
+								is_fallen_empire = yes
 							NOT = { has_communications = root.owner }
 						}
 					}
@@ -6790,8 +6255,7 @@ country_event = {
 		is_subject = no
 		OR = {
 			is_country_type = default
-			is_country_type = fallen_empire
-			is_country_type = awakened_fallen_empire
+			is_fallen_empire = yes
 		}
 		NOT = { has_country_flag = silence_destroy_event }
 	}
@@ -7593,8 +7057,7 @@ planet_event = {
 		from = {
 			OR = {
 				is_country_type = default
-				is_country_type = fallen_empire
-				is_country_type = awakened_fallen_empire
+				is_fallen_empire = yes
 			}
 		}
 		habitable_planet = yes
@@ -7693,14 +7156,13 @@ event = {
 	}
 
 	immediate = {
-		every_planet = {
+		every_system_planet = {
 			limit = {
 				exists = owner
 				owner = {
 					OR = {
 						is_country_type = default
-						is_country_type = fallen_empire
-						is_country_type = awakened_fallen_empire
+						is_fallen_empire = yes
 					}
 				}
 				exists = starbase
@@ -7709,11 +7171,10 @@ event = {
 					owner = {
 						OR = {
 							is_country_type = default
-							is_country_type = fallen_empire
-							is_country_type = awakened_fallen_empire
+							is_fallen_empire = yes
 						}
 						NOR = {
-							is_same_value = prevprev.owner
+							is_same_empire = prevprev.owner
 							is_at_war_with = prevprev.owner
 						}
 					}
@@ -7864,15 +7325,14 @@ event = {
 					owner = {
 						OR = {
 							is_country_type = default
-							is_country_type = fallen_empire
-							is_country_type = awakened_fallen_empire
+							is_fallen_empire = yes
 						}
 					}
 					solar_system = {
 						NOT = {
 							any_fleet_in_system = {
 								exists = owner
-								owner = { NOT = { is_same_value = prevprevprev.owner } }
+								owner = { NOT = { is_same_empire = prevprevprev.owner } }
 							}
 						}
 					}
@@ -7886,8 +7346,7 @@ event = {
 					owner = {
 						OR = {
 							is_country_type = default
-							is_country_type = fallen_empire
-							is_country_type = awakened_fallen_empire
+							is_fallen_empire = yes
 						}
 					}
 				}
@@ -7941,7 +7400,7 @@ event = {
 	}
 
 	immediate = {
-		every_planet = {
+		every_system_planet = {
 			limit = {
 				exists = owner
 				owner = { is_country_type = swarm }
@@ -7968,8 +7427,7 @@ event = {
 				limit = {
 					NOR = {
 						is_under_colonization = no
-						is_planet_class = pc_habitat
-						is_planet_class = pc_ringworld_habitable
+						is_artificial = yes
 					}
 				}
 				change_pc = pc_infested
@@ -7996,7 +7454,7 @@ event = {
 	}
 
 	immediate = {
-		every_planet = {
+		every_system_planet = {
 			limit = {
 				exists = owner
 				owner = {
@@ -8010,8 +7468,7 @@ event = {
 			if = {
 				limit = {
 					OR = {
-						is_planet_class = pc_habitat
-						is_planet_class = pc_ringworld_habitable
+						is_artificial = yes
 					}
 				}
 				destroy_colony = yes
@@ -8433,7 +7890,7 @@ country_event = {
 		}
 		remove_global_flag = ongoing_market_nomination
 		# nominees start equal, modifiers improve chances
-		random_country = {
+		random_playable_country = {
 			limit = {
 				is_country_type = default
 				has_country_flag = market_nomination_eligible
@@ -8650,7 +8107,7 @@ country_event = {
 	desc = {
 		text = action.101.desc
 		trigger = {
-			NOT = { is_xenophobe = yes }
+			is_xenophobe = no
 		}
 	}
 	desc = {
@@ -8974,13 +8431,13 @@ event = {
 	trigger = {
 		has_global_flag = galactic_market_founded
 
-		OR = {
-			NOT = { is_on_market = volatile_motes }
-			NOT = { is_on_market = exotic_gases }
-			NOT = { is_on_market = rare_crystals }
-			NOT = { is_on_market = sr_living_metal }
-			NOT = { is_on_market = sr_zro }
-			NOT = { is_on_market = sr_dark_matter }
+		NAND = {
+			is_on_market = volatile_motes
+			is_on_market = exotic_gases
+			is_on_market = rare_crystals
+			is_on_market = sr_living_metal
+			is_on_market = sr_zro
+			is_on_market = sr_dark_matter
 		}
 	}
 
@@ -9217,7 +8674,7 @@ country_event = {
 		trigger = {
 			NOT = {
 				from = {
-					owner = { is_same_value = root }
+					is_owned_by = root
 				}
 			}
 		}
@@ -9226,7 +8683,7 @@ country_event = {
 	option = {
 		trigger = {
 			from = {
-				owner = { is_same_value = root }
+				is_owned_by = root
 			}
 		}
 		name = action.123.a

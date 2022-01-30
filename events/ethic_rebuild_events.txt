@@ -66,8 +66,10 @@ country_event = {
 	
 	trigger = {
 		has_valid_civic = civic_naval_traditions
-		not = { has_country_flag = glorious_fleet }
-		not = { has_country_flag = unglorious_fleet }
+		NOR = {
+			has_country_flag = glorious_fleet
+			has_country_flag = unglorious_fleet
+		}
 	}	
 
 	immediate = { 	
@@ -96,8 +98,10 @@ country_event = {
 	
 	trigger = {
 		has_valid_civic = civic_naval_traditions
-		not = { has_country_flag = glorious_fleet }
-		not = { has_country_flag = unglorious_fleet }
+		NOR = {
+			has_country_flag = glorious_fleet
+			has_country_flag = unglorious_fleet
+		}
 	}	
 
 	immediate = { 	
@@ -259,7 +263,7 @@ country_event = {
 			}		
 			OR = {
 				root = { NOT = { has_ethic = ethic_capitalism } }
-				count_pops = {
+				count_owned_pop = {
 					limit = { has_ethic = ethic_capitalism }
 					count > 1
 				}				
@@ -318,7 +322,7 @@ country_event = {
 			}		
 			OR = {
 				root = { NOT = { has_ethic = ethic_socialism } }
-				count_pops = {
+				count_owned_pop = {
 					limit = { has_ethic = ethic_socialism }
 					count > 1
 				}				

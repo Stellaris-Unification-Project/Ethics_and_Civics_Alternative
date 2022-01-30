@@ -117,10 +117,7 @@ event = {
 			if = {
 				limit = {
 					has_civic = civic_enlightment
-					nor = {
-					    has_ethic = ethic_spiritualist
-						has_ethic = ethic_fanatic_spiritualist
-						}
+					is_spiritualist = no
 				}
 				give_technology = { tech = tech_heritage_site }
 			}	
@@ -129,8 +126,7 @@ event = {
 				limit = {
 					has_civic = civic_enlightment
 					or = {
-					    has_ethic = ethic_spiritualist
-						has_ethic = ethic_fanatic_spiritualist
+					    is_spiritualist = yes
 						}
 				}
 				give_technology = { tech = tech_holographic_rituals }

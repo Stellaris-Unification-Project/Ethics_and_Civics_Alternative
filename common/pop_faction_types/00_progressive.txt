@@ -20,7 +20,7 @@ progressive = {
 		years_passed > 10
 		has_encountered_other_species = yes
 		NOT = { has_authority = auth_hive_mind }
-		count_owned_pops = {
+		count_owned_pop = {
 			count >= 5
 			limit = {
 				has_ethic = ethic_egalitarian
@@ -46,10 +46,7 @@ progressive = {
 		is_shackled_robot = no
 		has_culture_shock = no
 		NOT = { has_trait = trait_nerve_stapled }
-		OR = {
-			has_ethic = ethic_egalitarian
-			has_ethic = ethic_fanatic_egalitarian
-		}
+		is_egalitarian = yes
 	}
 
 	attraction = {
@@ -155,7 +152,7 @@ progressive = {
 			owner = {
 				NOR = {
 					any_owned_pop = {
-						has_migration_control = yes
+						has_migration_control = { value = yes country = prev.owner }
 						is_sapient = yes
 						is_enslaved = no
 						is_being_purged = no
@@ -251,8 +248,7 @@ progressive = {
 			owner = {
 					has_policy_flag = slavery_allowed
 				NOR = {
-					has_ethic = ethic_xenophobe
-					has_ethic = ethic_fanatic_xenophobe
+					is_xenophobe = yes
 					has_valid_civic = civic_slaver_guilds
 				}
 			}

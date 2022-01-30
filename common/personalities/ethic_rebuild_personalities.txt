@@ -91,23 +91,15 @@ evangelising_zealots_machine = {
 
 	allow = {
 		is_country_type = default
-		NOT = {
-			has_ethic = "ethic_pacifist"
-			has_ethic = "ethic_fanatic_pacifist"
-		}
+		is_pacifist = no
 		OR = {
-			has_ethic = "ethic_authoritarian"
-			has_ethic = "ethic_fanatic_authoritarian"
-			has_ethic = "ethic_xenophobe"
-			has_ethic = "ethic_fanatic_xenophobe"
+			is_authoritarian = yes
+			is_xenophobe = yes
 			has_ethic = "ethic_fanatic_militarist"
 			has_ethic = "ethic_militarist"
 			
 		}
-		OR = {
-			has_ethic = "ethic_spiritualist"
-			has_ethic = "ethic_fanatic_spiritualist"
-		}
+		is_spiritualist = yes
 		has_valid_civic = civic_machine_cult
 	}
 
@@ -196,24 +188,16 @@ spiritual_seekers_machine = {
 	allow = {
 		is_country_type = default
 		NOT = {
-			has_ethic = "ethic_xenophobe"
-			has_ethic = "ethic_fanatic_xenophobe"
-			has_ethic = "ethic_militarist"
-			has_ethic = "ethic_fanatic_militarist"
+			is_xenophobe = yes
+			is_militarist = yes
 		}
 		OR = {
-			has_ethic = "ethic_egalitarian"
-			has_ethic = "ethic_fanatic_egalitarian"
-			has_ethic = "ethic_pacifist"
-			has_ethic = "ethic_fanatic_pacifist"
-			has_ethic = "ethic_xenophile"
-			has_ethic = "ethic_fanatic_xenophile"			
+			is_egalitarian = yes
+			is_pacifist = yes
+			is_xenophile = yes			
 			
 		}
-		OR = {
-			has_ethic = "ethic_spiritualist"
-			has_ethic = "ethic_fanatic_spiritualist"
-		}
+		is_spiritualist = yes
 		
 		has_valid_civic = civic_machine_cult
 	}

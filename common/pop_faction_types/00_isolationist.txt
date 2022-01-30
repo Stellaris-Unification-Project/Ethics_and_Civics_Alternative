@@ -20,7 +20,7 @@ isolationist = {
 		years_passed > 10
 		has_encountered_other_species = yes
 		NOT = { has_ethic = ethic_gestalt_consciousness }
-		count_owned_pops = {
+		count_owned_pop = {
 			count >= 5
 			limit = {
 				has_ethic = ethic_xenophobe
@@ -46,17 +46,11 @@ isolationist = {
 		is_shackled_robot = no
 		has_culture_shock = no
 		NOT = { has_trait = trait_nerve_stapled }
-		OR = {
-			has_ethic = ethic_xenophobe
-			has_ethic = ethic_fanatic_xenophobe
-		}
+		is_xenophobe = yes
 		OR = {
 			NOT = { is_same_species = owner_species }
 			owner = {
-				OR = {
-					has_ethic = ethic_pacifist
-					has_ethic = ethic_fanatic_pacifist
-				}
+				is_pacifist = yes
 			}
 		}
 	}
@@ -83,20 +77,12 @@ isolationist = {
 
 		modifier = {
 			factor = 1.5
-
-			OR = {
-				has_ethic = ethic_xenophobe
-				has_ethic = ethic_fanatic_xenophobe
-			}
+			is_xenophobe = yes
 		}
 
 		modifier = {
 			factor = 0.25
-
-			OR = {
-				has_ethic = ethic_militarist
-				has_ethic = ethic_fanatic_militarist
-			}
+			is_militarist = yes
 		}
 
 		# Should really check for citizenship instead

@@ -20,7 +20,7 @@ xenoist = {
 		years_passed > 10
 		has_encountered_other_species = yes
 		NOT = { has_ethic = ethic_gestalt_consciousness }
-		count_owned_pops = {
+		count_owned_pop = {
 			count >= 5
 			limit = {
 				has_ethic = ethic_xenophile
@@ -46,10 +46,7 @@ xenoist = {
 		is_shackled_robot = no
 		has_culture_shock = no
 		NOT = { has_trait = trait_nerve_stapled }
-		OR = {
-			has_ethic = ethic_xenophile
-			has_ethic = ethic_fanatic_xenophile
-		}
+		is_xenophile = yes
 	}
 
 	attraction = {
@@ -442,7 +439,7 @@ xenoist = {
 				OR = {
 					has_country_flag = found_presapients
 					any_planet_within_border = {
-						any_pop = {
+						any_owned_pop = {
 							is_sapient = no
 						}
 					}
@@ -538,8 +535,7 @@ xenoist = {
 					NOT = { has_communications = prev}
 					OR = {
 						is_country_type = default
-						is_country_type = fallen_empire
-						is_country_type = awakened_fallen_empire
+						is_fallen_empire = yes
 					}
 				}
 			}

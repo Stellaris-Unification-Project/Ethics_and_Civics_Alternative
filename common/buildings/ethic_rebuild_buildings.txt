@@ -477,7 +477,7 @@ building_thermal_borehole = {
 	potential = {
 		owner = { has_valid_civic = civic_industrial_economy }
 		NOT = { has_modifier = resort_colony }
-		NOR = { is_planet_class = pc_habitat  is_planet_class = pc_ringworld_habitable }
+		is_artificial = no
 		NOT = { has_modifier = slave_colony }
 	}
 
@@ -527,7 +527,7 @@ building_thermal_borehole = {
 		# No one to work it
 		modifier = {
 			factor = 0
-			count_owned_pops = {
+			count_owned_pop = {
 				limit = {
 					OR = {
 						is_unemployed = yes
@@ -560,8 +560,10 @@ building_institute = {
 	category = research
 
 	potential = {
-		NOT = { has_modifier = resort_colony }
-		NOT = { has_modifier = slave_colony }
+		NOR = {
+			has_modifier = resort_colony
+			has_modifier = slave_colony
+		}
 		exists = owner
 		owner = { is_regular_empire = yes }
 	}
@@ -2085,7 +2087,7 @@ building_clinic = {
 		}
 		modifier = {
 			factor = 0
-			count_pops = { limit = { is_sapient = yes } count > 75 }
+			count_owned_pop = { limit = { is_sapient = yes } count > 75 }
 		}
 	}
 }
@@ -2257,7 +2259,7 @@ building_capital = {
 		potential = {
 			exists = owner
 			owner = {
-				has_non_swapped_tradition = tr_domination_imperious_architecture
+				has_active_tradition = tr_domination_imperious_architecture
 			}
 		}
 		modifier = {
@@ -2560,7 +2562,7 @@ building_major_capital = {
 		potential = {
 			exists = owner
 			owner = {
-				has_non_swapped_tradition = tr_domination_imperious_architecture
+				has_active_tradition = tr_domination_imperious_architecture
 			}
 		}
 		modifier = {
@@ -2875,7 +2877,7 @@ building_system_capital = {
 		potential = {
 			exists = owner
 			owner = {
-				has_non_swapped_tradition = tr_domination_imperious_architecture
+				has_active_tradition = tr_domination_imperious_architecture
 			}
 		}
 		modifier = {
@@ -3626,8 +3628,10 @@ building_galactic_stock_exchange = {
 	category = trade
 
 	potential = {
-		NOT = { has_modifier = resort_colony }
-		NOT = { has_modifier = slave_colony }
+		NOR = {
+			has_modifier = resort_colony
+			has_modifier = slave_colony
+		}
 	}
 
 	allow = {
@@ -3771,7 +3775,7 @@ building_paradise_dome = {
 		potential = {
 			exists = owner
 			owner = {
-				has_non_swapped_tradition = tr_domination_imperious_architecture
+				has_active_tradition = tr_domination_imperious_architecture
 			}
 		}
 		modifier = {
