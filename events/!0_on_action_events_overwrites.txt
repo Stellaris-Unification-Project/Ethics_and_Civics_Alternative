@@ -484,8 +484,8 @@ country_event = {
 				NOR = {
 					has_valid_civic = civic_fanatic_purifiers
 					has_valid_civic = civic_hive_devouring_swarm
+					has_country_flag = special_intro_for@root
 				}
-				NOT = { has_country_flag = special_intro_for@root }
 			}
 		}
 	}
@@ -538,8 +538,8 @@ country_event = {
 				NOR = {
 					has_valid_civic = civic_fanatic_purifiers
 					has_valid_civic = civic_hive_devouring_swarm
+					has_country_flag = special_intro_for@root
 				}
-				NOT = { has_country_flag = special_intro_for@root }
 			}
 		}
 	}
@@ -573,8 +573,8 @@ country_event = {
 				NOR = {
 					has_valid_civic = civic_fanatic_purifiers
 					has_valid_civic = civic_hive_devouring_swarm
+					has_country_flag = special_intro_for@root
 				}
-				NOT = { has_country_flag = special_intro_for@root }
 			}
 		}
 	}
@@ -590,8 +590,8 @@ country_event = {
 				NOR = {
 					has_valid_civic = civic_fanatic_purifiers
 					has_valid_civic = civic_hive_devouring_swarm
+					has_country_flag = special_intro_for@root
 				}
-				NOT = { has_country_flag = special_intro_for@root }
 			}
 		}
 	}
@@ -1133,12 +1133,10 @@ country_event = {
 				NOR = {
 					has_ethic = ethic_gestalt_consciousness
 					has_ethic = ethic_fanatic_xenophobe
-				}
-				NOR = {
 					has_ethic = ethic_fanatic_xenophile
 					has_ethic = ethic_fanatic_materialist
+					has_ethic = ethic_fanatic_spiritualist
 				}
-				NOT = { has_ethic = ethic_fanatic_spiritualist }
 			}
 		}
 	}
@@ -2743,12 +2741,10 @@ country_event = {
 				NOR = {
 					has_ethic = ethic_fanatic_xenophobe
 					has_ethic = ethic_fanatic_xenophile
-				}
-				NOR = {
 					has_ethic = ethic_fanatic_militarist
 					has_ethic = ethic_fanatic_materialist
+					has_ethic = ethic_fanatic_spiritualist
 				}
-				NOT = { has_ethic = ethic_fanatic_spiritualist }
 			}
 		}
 	}
